@@ -288,14 +288,17 @@
     --pic-gap: 20px;
     --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
   .header {
     padding-left: 0;
   }
+
   .content__card {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: var(--content-gap);
   }
+
   .gallery-title {
     grid-column: 1 / 4;
     grid-row-start: 1;
@@ -330,6 +333,7 @@
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }
+  
   .footer__title {
     padding: 464px 0;
   }

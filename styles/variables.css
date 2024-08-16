@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root{
+:root {
   --main-color:#000028;
   --accent-color:#ff0070;
   --title-color:#DB00FF;
@@ -19,5 +19,4 @@
   --content-margin:50px;
   --content-gap:20px;
   --pic-gap:10px;
-  
 } 
