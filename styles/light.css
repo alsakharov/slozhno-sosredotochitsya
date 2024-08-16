@@ -10,7 +10,7 @@
   --accent-color: #353430;
   --title-color: #ffc2e6;
   --shadow-color: #ff0070;
-  --link-color: #353430;
+  --text-color: #353430;
   --shadow-link-color: #ff8dcb;
 }
 
@@ -21,9 +21,10 @@
     --accent-color: #353430;
     --title-color: #ffc2e6;
     --shadow-color: #ff0070;
-    --link-color: #353430;
+    --text-color: #353430;
     --shadow-link-color: #ff8dcb;
   }
+  
 }
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
