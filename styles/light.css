@@ -4,9 +4,43 @@
   переключая тему
 */
 
+:root .theme_light {
+  --bg-pic: url(../images/cover-image-light.png);
+  --main-color: #fff1f7;
+  --accent-color: #353430;
+  --title-color: #ffc2e6;
+  --shadow-color: #ff0070;
+  --link-color: #353430;
+  --shadow-link-color: #ff8dcb;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-pic: url(../images/cover-image-light.png);
+    --main-color: #fff1f7;
+    --accent-color: #353430;
+    --title-color: #ffc2e6;
+    --shadow-color: #ff0070;
+    --link-color: #353430;
+    --shadow-link-color: #ff8dcb;
+  }
+}
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+.theme_light .rec {
+  display: none;
+}
+
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid rgba(53, 52, 48, 0.4);
+}
+
+@media (min-width: 768px) {
+  .page.theme_light {
+    --shadow-color: #ff8dcb;
+  }
 }
