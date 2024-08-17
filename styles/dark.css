@@ -1,11 +1,14 @@
 :root .theme_dark {
   --bg-pic:url(../images/cover-image-dark.png);
-  --main-color:#000028;
-  --accent-color:#ff0070;
+  --bg-color:#000028;
   --title-color:#DB00FF;
-  --shadow-color:#FF0070;
-  --text-color:#F1B2CE;
-  --shadow-link-color:#ff0070;
+  --accent-color:#FF0070;
+  --shadow-title-color:var(--accent-color);
+  --main-color:var(--accent-color);
+  --description-color:var(--bg-color);
+  --card-title-color:var(--bg-color);
+  --card-bg-color:var(--accent-color);
+  --card-text-color:#F1B2CE;
 }
 
 .page.theme_dark {
