@@ -6,24 +6,22 @@
 
 :root .theme_light {
   --bg-pic: url(../images/cover-image-light.png);
-  --main-color: #fff1f7;
+  --main-color: #353430;
   --accent-color: #353430;
   --title-color: #ffc2e6;
   --shadow-color: #ff0070;
   --text-color:#353430;
-  --link-color: #353430;
   --shadow-link-color: #ff8dcb;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --bg-pic: url(../images/cover-image-light.png);
-    --main-color: #fff1f7;
+    --main-color: #353430;
     --accent-color: #353430;
     --title-color: #ffc2e6;
     --shadow-color: #ff0070;
     --text-color:#353430;
-    --link-color: #353430;
     --shadow-link-color: #ff8dcb;
   }
 }
@@ -32,9 +30,27 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background-color:#FFF1F7;
+}
+
+.theme_light .header__description-title{
+  background-color: var(--shadow-link-color);
+}
+
+.theme_light .card-title{
+  background-color: var(--shadow-link-color);
+}
+.theme_light .content__card-list-title{
+  background-color: var(--shadow-link-color);
+}
+.theme_light .card-text-accent{
+  background-color: var(--shadow-link-color);
 }
 .theme_light .rec {
   display: none;
+}
+.theme_light .gallery-title {
+  background-color: var(--shadow-link-color);
 }
 
 .theme_light .header__theme-menu-button:hover {
