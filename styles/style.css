@@ -316,10 +316,11 @@
     display: grid;
     grid-template-columns: auto;
   }
-  
+
   .content__card:nth-of-type(2)>.content__card-title {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    column-gap: var(--content-gap);
   }
 
   .gallery-title {
