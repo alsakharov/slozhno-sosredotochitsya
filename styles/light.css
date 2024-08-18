@@ -17,6 +17,23 @@
   --card-text-color:var(--accent-color);
 }
 
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+}
+
+.theme_light .rec {
+  display: none;
+}
+
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid rgba(53, 52, 48, .4);
+}
+
+
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-pic: url(../images/cover-image-light.png);
@@ -30,24 +47,23 @@
     --card-bg-color:var(--main-color);
     --card-text-color:var(--accent-color);
   }
-}
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
-.theme_light .rec {
+   .rec {
   display: none;
 }
-
-.theme_light .header__theme-menu-button:hover {
-  outline: 1px solid rgba(53, 52, 48, 0.4);
+  .header__theme-menu-button:hover {
+  outline: 1px solid rgba(53, 52, 48, .4);
 }
-
 @media (max-width: 768px) {
-  .page.theme_light {
-    --shadow-title-color: #ff8dcb;
+.page {
+  --shadow-title-color: var(--main-color);
+}
+}
+}
+@media (max-width: 768px) {
+  .theme_light .header__title {
+    --shadow-title-color:var(--main-color);
+  }
+  .theme_light .footer__title {
+    --shadow-title-color:var(--main-color);
   }
 }
