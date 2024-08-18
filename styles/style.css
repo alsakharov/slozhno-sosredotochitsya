@@ -149,7 +149,7 @@
 
 /* Контент */
 
-.main {
+.content {
   padding: var(--top-padding) var(--main-padding);
 }
 
@@ -357,10 +357,7 @@
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }
-  
-  .footer__title {
-    padding: 464px 0;
-  }
+
 }
 
 @media (min-width: 1024px) {
@@ -383,8 +380,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .footer__title {
-    padding: 336px 0;
-  }
+
 }
 
