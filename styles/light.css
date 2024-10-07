@@ -58,6 +58,7 @@
   --shadow-title-color: var(--main-color);
 }
 }
+
 }
 @media (max-width: 768px) {
   .theme_light .header__title {
